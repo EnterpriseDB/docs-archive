@@ -32,7 +32,7 @@ We use Sphinx and Latexpdf packages to generate the PDFs from source RST files. 
 
 **Sphinx**: Version 3.0 or above
 
-1. Setup a fresh Ubuntu 18.4 VM on your system and then install Sphinx on it: http://www.sphinx-doc.org/en/master/usage/installation.html 
+1. Setup a fresh Ubuntu 18.4 VM on your system and then install Sphinx on it: [http://www.sphinx-doc.org/en/master/usage/installation.html](http://www.sphinx-doc.org/en/master/usage/installation.html).  
 1. After Sphinx installation, create a base folder for all your RST project directories and run the following command from that directory: 
 
    `Sphinx-quickstart`
