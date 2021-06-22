@@ -1,5 +1,22 @@
-# docs-archive
-# Source files for PDFs
+# EDB Docs Archive: PDF-formatted documentation for older product versions
+
+This repository exists to store, serve and provide a framework for updating PDF files used to document versions of EDB products that are not currently maintained on https://github.com/EnterpriseDB/docs
+
+## Working with this repository
+
+*The instructions here are intended for the use of EDB documentation writers and maintainers who need to update or correct the documentation versions contained in this repository.*
+
+### Git LFS
+
+This repository uses Git LFS to minimize local storage requirements. Before pulling or working with the files here via Git, you'll need to install the Git LFS extension. Instructions here: https://github.com/git-lfs/git-lfs/wiki/Installation
+
+**Don't forget to run `git lfs install`** to tell Git about the extension after you've installed it!
+
+### Branch structure
+
+All updates should be pushed to the `develop` branch in this repository. At this point, they will be available for download via [the docs staging server](https://edb-docs-staging.netlify.app/docs/). After verifying that the updated files are available, merge changes into the `main` branch, and they will immediately become available via https://www.enterprisedb.com/docs
+
+### Source files for PDFs
 
 You need to have access to the product repo from which you want to pull the RST source files. 
 
@@ -23,7 +40,7 @@ You need to have access to the product repo from which you want to pull the RST 
 || 4.0.10.1 | RST | edb-dotnet | DOCS_4.0.10.1 |
 || 4.0.6.1 | RST | edb-dotnet | DOCS_4.0.6.1 |
 
-# Setting up the environment for updating the RST files
+### Setting up the environment for updating the RST files
 We use Sphinx and Latexpdf packages to generate the PDFs from source RST files. The optimum environment that works for all our requirements is:
 
 **Ubuntu**: 18.04
@@ -56,7 +73,7 @@ We use Sphinx and Latexpdf packages to generate the PDFs from source RST files. 
    
    `chmod -R 777 *`
 
-# Updating the source files
+### Updating the source files
 You can use any editor to modify the RST files (most of the doc team members use [Atom](https://www.ubuntu18.com/install-atom-on-ubuntu-18/)).
  
 After confirming that PDF generation works on your system:
