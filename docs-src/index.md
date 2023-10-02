@@ -1,2 +1,2 @@
 # EDB Documentation - Products
-* [BART](/bart-index)
+* [BART](./bart-index)
