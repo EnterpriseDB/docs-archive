@@ -1,5 +1,9 @@
 # EDB Documentation - Products
 
+This is the EDB Documentation Archive, a resource for users of EDB products which are no longer actively documented or have been superceded by newer versions.
+
+If you are looking for current documentation, go to the main [EDB Documentation site](https://enterprisedb.com/docs)
+
 * [Ark](./ark-index.md)
 * [BART](./bart-index)
 * [EDB Plus](./edb_plus-index)
