@@ -1,5 +1,11 @@
 # Postgres Enterprise Manager
 
+## PEM API
+
+* [PEM API Reference](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf
+) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf
+?download=true)</button>
+
 ## Postgres Enterprise Manager 7.16
 
 ### Installation & Getting Started
@@ -8,15 +14,11 @@
 * [Upgrade & Migration Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_upgrade.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_upgrade.pdf?download=true)</button>
 * [Windows Installation Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_windows.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_windows.pdf?download=true)</button>
 
-### Reference
-* [Online Documentation 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
-
 ### User Guides
 * [Administrators Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_admin.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_admin.pdf?download=true)</button>
 * [Agent User Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_agent.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_agent.pdf?download=true)</button>
 * [BART Management Features Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_bart.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_bart.pdf?download=true)</button>
 * [Enterprise Features Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_ent_feat.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_ent_feat.pdf?download=true)</button>
-* [PEM Rest API 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
 * [SQL Profiler Configuration Guide 7.16](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_sql_profiler.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_sql_profiler.pdf?download=true)</button>
 
 ## Postgres Enterprise Manager 7.15
@@ -27,15 +29,11 @@
 * [Upgrade & Migration Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_upgrade.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_upgrade.pdf?download=true)</button>
 * [Windows Installation Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_windows.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_windows.pdf?download=true)</button>
 
-### Reference
-* [Online Documentation 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
-
 ### User Guides
 * [Administrators Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_admin.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_admin.pdf?download=true)</button>
 * [Agent User Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_agent.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_agent.pdf?download=true)</button>
 * [BART Management Features Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_bart.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_bart.pdf?download=true)</button>
 * [Enterprise Features Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_ent_feat.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_ent_feat.pdf?download=true)</button>
-* [PEM Rest API 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
 * [SQL Profiler Configuration Guide 7.15](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_sql_profiler.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_sql_profiler.pdf?download=true)</button>
 
 ## Postgres Enterprise Manager 7.14
@@ -45,9 +43,6 @@
 * [pgBouncer Configuration Guide 7.14](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_pgbouncer.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_pgbouncer.pdf?download=true)</button>
 * [Upgrade & Migration Guide 7.14](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_upgrade.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_upgrade.pdf?download=true)</button>
 * [Windows Installation Guide 7.14](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_windows.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_windows.pdf?download=true)</button>
-
-### Reference
-* [Online Documentation 7.14](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
 
 ### User Guides
 * [Administrators Guide 7.14](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_admin.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_admin.pdf?download=true)</button>
@@ -76,9 +71,6 @@
 * [Installation Guide 7.12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_installation_guide.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_installation_guide.pdf?download=true)</button>
 * [pgBouncer Configuration Guide 7.12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_pgbouncer_configuration_guide.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_pgbouncer_configuration_guide.pdf?download=true)</button>
 * [Upgrade & Migration Guide 7.12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_upgrade_guide.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_upgrade_guide.pdf?download=true)</button>
-
-### Reference
-* [Online Documentation 7.12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
 
 ### User Guides
 * [Agent User Guide 7.12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_agent_user_guide.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_agent_user_guide.pdf?download=true)</button>
@@ -135,9 +127,6 @@
 * [pgBouncer Configuration Guide 7.8](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_pgBouncer_Configuration_Guide_v7.8.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_pgBouncer_Configuration_Guide_v7.8.pdf?download=true)</button>
 * [Upgrade & Migration Guide 7.8](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Upgrade_and_Migration_Guide_v7.8.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Upgrade_and_Migration_Guide_v7.8.pdf?download=true)</button>
 
-### Reference
-* [Online Documentation 7.8](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
-
 ### User Guides
 * [Ark Management Features Guide 7.8](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_EDB_Ark_Management_Features_Guide_v7.8.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_EDB_Ark_Management_Features_Guide_v7.8.pdf?download=true)</button>
 * [Enterprise Features Guide 7.8](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Enterprise_Features_Guide_v7.8.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Enterprise_Features_Guide_v7.8.pdf?download=true)</button>
@@ -151,9 +140,6 @@
 * [pgBouncer Configuration Guide 7.7](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_pgBouncer_Configuration_Guide_v7.7.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_pgBouncer_Configuration_Guide_v7.7.pdf?download=true)</button>
 * [Upgrade & Migration Guide 7.7](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Upgrade_and_Migration_Guide_v7.7.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Upgrade_and_Migration_Guide_v7.7.pdf?download=true)</button>
 
-### Reference
-* [Online Documentation 7.7](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
-
 ### User Guides
 * [Ark Management Features Guide 7.7](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_EDB_Ark_Management_Features_Guide_v7.7.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_EDB_Ark_Management_Features_Guide_v7.7.pdf?download=true)</button>
 * [Enterprise Features Guide 7.7](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Enterprise_Features_Guide_v7.7.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Enterprise_Features_Guide_v7.7.pdf?download=true)</button>
@@ -165,9 +151,6 @@
 * [Installation Guide 7.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Installation_Guide_v7.6.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Installation_Guide_v7.6.pdf?download=true)</button>
 * [pgBouncer Configuration Guide 7.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_pgBouncer_Configuration_Guide_v7.6.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_pgBouncer_Configuration_Guide_v7.6.pdf?download=true)</button>
 * [Upgrade & Migration Guide 7.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Upgrade_and_Migration_Guide_v7.6.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Upgrade_and_Migration_Guide_v7.6.pdf?download=true)</button>
-
-### Reference
-* [Online Documentation 7.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainnull?download=true)</button>
 
 ### User Guides
 * [Ark Management Features Guide 7.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_EDB_Ark_Management_Features_Guide_v7.6.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_EDB_Ark_Management_Features_Guide_v7.6.pdf?download=true)</button>
