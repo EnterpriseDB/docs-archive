@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Postgres Enterprise Manager - EDB Documentation PDF Archive</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Postgres Enterprise Manager";
+        var mkdocs_page_input_path = "pem-index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> EDB Documentation PDF Archive
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">EDB Documentation - Products</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ark-index/">Ark Platform</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bart-index/">BART</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../edb_plus-index/">EDB Plus</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../efm-index/">EDB Failover Manager</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../epas-index/">EDB Postgres Advanced Server</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../eprs-index/">EDB Postgres Replication Server</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../hadoop_data_adapter-index/">Hadoop Data Adapter</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../jdbc_connector-index/">JDBC Connector</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../language_pack-index/">EDB Postgres Language Pack</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../migration_toolkit-index/">Migration Toolkit</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../net_connector-index/">.NET Connector</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../ocl_connector-index/">OCL Connector</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../odbc_connector-index/">ODBC Connector</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Postgres Enterprise Manager</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#pem-api">PEM API</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-716">Postgres Enterprise Manager 7.16</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-715">Postgres Enterprise Manager 7.15</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_1">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_1">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-714">Postgres Enterprise Manager 7.14</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_2">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_2">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-713">Postgres Enterprise Manager 7.13</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_3">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_3">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-712">Postgres Enterprise Manager 7.12</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_4">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_4">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-711">Postgres Enterprise Manager 7.11</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_5">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_5">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-710">Postgres Enterprise Manager 7.10</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_6">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_6">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-79">Postgres Enterprise Manager 7.9</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_7">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_7">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-78">Postgres Enterprise Manager 7.8</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_8">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_8">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-77">Postgres Enterprise Manager 7.7</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_9">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_9">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#postgres-enterprise-manager-76">Postgres Enterprise Manager 7.6</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#installation-getting-started_10">Installation &amp; Getting Started</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#user-guides_10">User Guides</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">EDB Documentation PDF Archive</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+      <li>Postgres Enterprise Manager</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="postgres-enterprise-manager">Postgres Enterprise Manager</h1>
+<h2 id="pem-api">PEM API</h2>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf">PEM API Reference</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf
+?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-716">Postgres Enterprise Manager 7.16</h2>
+<h3 id="installation-getting-started">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_linux.pdf">Linux Installation Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_linux.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_pgbouncer.pdf">pgBouncer Configuration Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_pgbouncer.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_upgrade.pdf">Upgrade &amp; Migration Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_upgrade.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_windows.pdf">Windows Installation Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/pem_inst_guide_windows.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_admin.pdf">Administrators Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_admin.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_agent.pdf">Agent User Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_agent.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_bart.pdf">BART Management Features Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_bart.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_ent_feat.pdf">Enterprise Features Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_ent_feat.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_sql_profiler.pdf">SQL Profiler Configuration Guide 7.16</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.16/edb_pem_sql_profiler.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-715">Postgres Enterprise Manager 7.15</h2>
+<h3 id="installation-getting-started_1">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_linux.pdf">Linux Installation Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_linux.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_pgbouncer.pdf">pgBouncer Configuration Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_pgbouncer.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_upgrade.pdf">Upgrade &amp; Migration Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_upgrade.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_windows.pdf">Windows Installation Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/pem_inst_guide_windows.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_1">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_admin.pdf">Administrators Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_admin.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_agent.pdf">Agent User Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_agent.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_bart.pdf">BART Management Features Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_bart.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_ent_feat.pdf">Enterprise Features Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_ent_feat.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_sql_profiler.pdf">SQL Profiler Configuration Guide 7.15</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.15/edb_pem_sql_profiler.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-714">Postgres Enterprise Manager 7.14</h2>
+<h3 id="installation-getting-started_2">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_linux.pdf">Linux Installation Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_linux.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_pgbouncer.pdf">pgBouncer Configuration Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_pgbouncer.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_upgrade.pdf">Upgrade &amp; Migration Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_upgrade.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_windows.pdf">Windows Installation Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/pem_inst_guide_windows.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_2">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_admin.pdf">Administrators Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_admin.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_agent.pdf">Agent User Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_agent.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_bart.pdf">BART Management Features Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_bart.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_ent_feat.pdf">Enterprise Features Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_ent_feat.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_sql_profiler.pdf">SQL Profiler Configuration Guide 7.14</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.14/edb_pem_sql_profiler.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-713">Postgres Enterprise Manager 7.13</h2>
+<h3 id="installation-getting-started_3">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_administrators_guide.pdf">Administrators Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_administrators_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_installation_guide.pdf">Installation Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_installation_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_PgBouncer_configuration_guide.pdf">pgBouncer Configuration Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_PgBouncer_configuration_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_upgrade_guide.pdf">Upgrade &amp; Migration Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_upgrade_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_3">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_agent_user_guide.pdf">Agent User Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_agent_user_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainhttps://www.enterprisedb.com/edb-docs/d/edb-postgres-enterprise-manager/user-guides/bart-management-features-guide/7.13/index.html">BART Management Features Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/mainhttps://www.enterprisedb.com/edb-docs/d/edb-postgres-enterprise-manager/user-guides/bart-management-features-guide/7.13/index.html?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_enterprise_features_guide.pdf">Enterprise Features Guide 7.13</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.13/PEM_enterprise_features_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-712">Postgres Enterprise Manager 7.12</h2>
+<h3 id="installation-getting-started_4">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_getting_started_guide.pdf">Getting Started Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_getting_started_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_installation_guide.pdf">Installation Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_installation_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_pgbouncer_configuration_guide.pdf">pgBouncer Configuration Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_pgbouncer_configuration_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_upgrade_guide.pdf">Upgrade &amp; Migration Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_upgrade_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_4">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_agent_user_guide.pdf">Agent User Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_agent_user_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_Ark_management_guide.pdf">Ark Management Features Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_Ark_management_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/BART_management_features_guide.pdf">BART Management Features Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/BART_management_features_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_enterprise_features_guide.pdf">Enterprise Features Guide 7.12</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.12/PEM_enterprise_features_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-711">Postgres Enterprise Manager 7.11</h2>
+<h3 id="installation-getting-started_5">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_getting_started_guide.pdf">Getting Started Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_getting_started_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_installation_guide.pdf">Installation Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_installation_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_pgbouncer_configuration_guide.pdf">pgBouncer Configuration Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_pgbouncer_configuration_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_upgrade_guide.pdf">Upgrade &amp; Migration Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_upgrade_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_5">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_agent_user_guide.pdf">Agent User Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_agent_user_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_Ark_management_guide.pdf">Ark Management Features Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_Ark_management_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/BART_management_features_guide.pdf">BART Management Features Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/BART_management_features_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_enterprise_features_guide.pdf">Enterprise Features Guide 7.11</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.11/PEM_enterprise_features_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-710">Postgres Enterprise Manager 7.10</h2>
+<h3 id="installation-getting-started_6">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_getting_started_guide.pdf">Getting Started Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_getting_started_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_installation_guide.pdf">Installation Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_installation_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_pgbouncer_configuration_guide.pdf">pgBouncer Configuration Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_pgbouncer_configuration_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_upgrade_guide.pdf">Upgrade &amp; Migration Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_upgrade_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_6">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_agent_user_guide.pdf">Agent User Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_agent_user_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_Ark_management_guide.pdf">Ark Management Features Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_Ark_management_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/BART_management_features_guide.pdf">BART Management Features Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/BART_management_features_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_enterprise_features_guide.pdf">Enterprise Features Guide 7.10</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.10/PEM_enterprise_features_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-79">Postgres Enterprise Manager 7.9</h2>
+<h3 id="installation-getting-started_7">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_gsg/PEM_getting_started_guide.pdf">Getting Started Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_gsg/PEM_getting_started_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_installation_guide.pdf">Installation Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_installation_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_pgbouncer_configuration_guide/PEM_pgBouncer_configuration.pdf">pgBouncer Configuration Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_pgbouncer_configuration_guide/PEM_pgBouncer_configuration.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_upgrade_guide.pdf">Upgrade &amp; Migration Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_upgrade_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_7">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_agent_user_guide.pdf">Agent User Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/PEM_agent_user_guide.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_ark_guide/PEM_ark_management.pdf">Ark Management Features Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_ark_guide/PEM_ark_management.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_enterprise_features_guide/PEM_enterprise_features_guide.pdf">Enterprise Features Guide 7.9</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.9/pem_enterprise_features_guide/PEM_enterprise_features_guide.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-78">Postgres Enterprise Manager 7.8</h2>
+<h3 id="installation-getting-started_8">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Getting_Started_Guide_v7.8.pdf">Getting Started Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Getting_Started_Guide_v7.8.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Installation_Guide_v7.8.pdf">Installation Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Installation_Guide_v7.8.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_pgBouncer_Configuration_Guide_v7.8.pdf">pgBouncer Configuration Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_pgBouncer_Configuration_Guide_v7.8.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Upgrade_and_Migration_Guide_v7.8.pdf">Upgrade &amp; Migration Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Upgrade_and_Migration_Guide_v7.8.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_8">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_EDB_Ark_Management_Features_Guide_v7.8.pdf">Ark Management Features Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_EDB_Ark_Management_Features_Guide_v7.8.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Enterprise_Features_Guide_v7.8.pdf">Enterprise Features Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Enterprise_Features_Guide_v7.8.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Agent_User_Guide_v7.8.pdf">PEM Agent Guide 7.8</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.8/PEM_Agent_User_Guide_v7.8.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-77">Postgres Enterprise Manager 7.7</h2>
+<h3 id="installation-getting-started_9">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Getting_Started_Guide_v7.7.pdf">Getting Started Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Getting_Started_Guide_v7.7.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Installation_Guide_v7.7.pdf">Installation Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Installation_Guide_v7.7.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_pgBouncer_Configuration_Guide_v7.7.pdf">pgBouncer Configuration Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_pgBouncer_Configuration_Guide_v7.7.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Upgrade_and_Migration_Guide_v7.7.pdf">Upgrade &amp; Migration Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Upgrade_and_Migration_Guide_v7.7.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_9">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_EDB_Ark_Management_Features_Guide_v7.7.pdf">Ark Management Features Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_EDB_Ark_Management_Features_Guide_v7.7.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Enterprise_Features_Guide_v7.7.pdf">Enterprise Features Guide 7.7</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.7/PEM_Enterprise_Features_Guide_v7.7.pdf?download=true">download</a></button></li>
+</ul>
+<h2 id="postgres-enterprise-manager-76">Postgres Enterprise Manager 7.6</h2>
+<h3 id="installation-getting-started_10">Installation &amp; Getting Started</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Getting_Started_Guide_v7.6.pdf">Getting Started Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Getting_Started_Guide_v7.6.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Installation_Guide_v7.6.pdf">Installation Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Installation_Guide_v7.6.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_pgBouncer_Configuration_Guide_v7.6.pdf">pgBouncer Configuration Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_pgBouncer_Configuration_Guide_v7.6.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Upgrade_and_Migration_Guide_v7.6.pdf">Upgrade &amp; Migration Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Upgrade_and_Migration_Guide_v7.6.pdf?download=true">download</a></button></li>
+</ul>
+<h3 id="user-guides_10">User Guides</h3>
+<ul>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_EDB_Ark_Management_Features_Guide_v7.6.pdf">Ark Management Features Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_EDB_Ark_Management_Features_Guide_v7.6.pdf?download=true">download</a></button></li>
+<li><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Enterprise_Features_Guide_v7.6.pdf">Enterprise Features Guide 7.6</a> <button><a href="https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/7.6/PEM_Enterprise_Features_Guide_v7.6.pdf?download=true">download</a></button></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../odbc_connector-index/" class="btn btn-neutral float-left" title="ODBC Connector"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../odbc_connector-index/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
