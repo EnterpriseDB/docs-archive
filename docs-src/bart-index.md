@@ -112,3 +112,7 @@
 ### User Guides
 * [Backup & Recovery Guide 2.6](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bart/2.6/edb_bart_user.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bart/2.6/edb_bart_user.pdf?download=true)</button>
 
+## BART 2.6 Final
+
+* [Final Bart 2.6 Documentation](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bart/2.6-final/bart_v2.6_documentation.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bart/2.6-final/bart_v2.6_documentation.pdf?download=true)</button>
+
