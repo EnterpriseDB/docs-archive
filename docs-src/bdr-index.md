@@ -1,0 +1,10 @@
+# EDB BDR Documentation
+
+## EDB BDR 3.6
+
+### BDR 3.6 Enterprise Edition
+
+* [BDR 3.6.33 Enterprise Edition](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-ee.pdf) <button>[download](https://media.githubusercontent.com//media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-ee.pdf?download=true)</button>
+
+### BDR 3.6.33 Standard Edition
+* [BDR 3.6.33 Standard Edition](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-se.pdf) <button>[download](https://media.githubusercontent.com//media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-se.pdf?download=true)</button>
