@@ -6,6 +6,7 @@ If you are looking for current documentation, go to the main [EDB Documentation 
 
 * [Ark](./ark-index.md)
 * [BART](./bart-index)
+* [BDR](./bdr-index.md)
 * [EDB Plus](./edb_plus-index)
 * [EFM](./efm-index)
 * [EPAS](./epas-index)
