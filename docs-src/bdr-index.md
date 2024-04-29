@@ -1,4 +1,4 @@
-# EDB BDR Documentation
+# EDB BDR
 
 ## EDB BDR 3.6
 
