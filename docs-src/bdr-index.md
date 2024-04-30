@@ -10,4 +10,4 @@
 * [BDR 3.6.33 Standard Edition](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-se.pdf) <button>[download](https://media.githubusercontent.com//media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/bdr3.6.33-se.pdf?download=true)</button>
 
 ### pglogical 3.6.33
-* [BDR 3.6.33 Standard Edition](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bdr/pglogical3.6.33.pdf) <button>[download](https://media.githubusercontent.com//media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/pglogical3.6.33.pdf?download=true)</button>
+* [pglogical 3.6.33](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/bdr/pglogical3.6.33.pdf) <button>[download](https://media.githubusercontent.com//media/EnterpriseDB/docs-archive/main/docs/bdr/3.6/pglogical3.6.33.pdf?download=true)</button>
