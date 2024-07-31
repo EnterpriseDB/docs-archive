@@ -81,3 +81,8 @@
 * [ECPGPlus Guide 12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/12/EDB_Postgres_Advanced_Server_ecpgPlus_Guide_v12.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/12/EDB_Postgres_Advanced_Server_ecpgPlus_Guide_v12.pdf?download=true)</button>
 * [Language Pack Guide 12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/language_pack/1.0/EDB_Postgres_Language_Pack_Guide_v1.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/language_pack/1.0/EDB_Postgres_Language_Pack_Guide_v1.pdf?download=true)</button>
 * [User Guide 12](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/12/EDB_Postgres_Advanced_Server_Guide_v12.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/12/EDB_Postgres_Advanced_Server_Guide_v12.pdf?download=true)</button>
+
+## EDB Postgres Advanced Server 15.6
+
+* [EDB Postgres Advanced Server 15.6 Documentation](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/15/epas_v15.6_documentation.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/epas/15/epas_v15.6_documentation.pdf?download=true)</button>
+
