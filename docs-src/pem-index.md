@@ -2,8 +2,7 @@
 
 ## Postgres Enterprise Manager 8
 
-* [PEM Full Manual](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/pem_v8_documentation.pdf
-) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/pem_v8_documentation.pdf?download=true)</button>
+* [PEM Full Manual](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/pem_v8_documentation.pdf) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/pem_v8_documentation.pdf?download=true)</button>
 * [PEM API Reference](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf
 ) <button>[download](https://media.githubusercontent.com/media/EnterpriseDB/docs-archive/main/docs/pem/8/8_vpem_api_documentation.pdf
 ?download=true)</button>
