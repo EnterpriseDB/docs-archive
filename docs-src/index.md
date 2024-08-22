@@ -14,6 +14,7 @@ If you are looking for current documentation, go to the main [EDB Documentation 
 * [Hadoop Data Adapter](./hadoop_data_adapter-index.md)
 * [JDBC Connector](./jdbc_connector-index.md)
 * [Language Pack](./language_pack-index.md)
+* [LiveCompare](./livecompare-index.md)
 * [Migration Toolkit](./migration_toolkit-index.md)
 * [.NET Connector](./net_connector-index.md)
 * [OCL Connector](./ocl_connector-index.md)
