@@ -2,6 +2,8 @@
 
 This repository exists to store, serve and provide a framework for updating PDF files used to document versions of EDB products that are not currently maintained on https://github.com/EnterpriseDB/docs
 
+Contents are published at: https://docs-archive.enterprisedb.com/
+
 ## Working with this repository
 
 _The instructions here are intended for the use of EDB documentation writers and maintainers who need to update or correct the documentation versions contained in this repository._
